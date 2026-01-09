@@ -187,3 +187,22 @@ nav .menu a {
     margin-top: 20px;
     color: #627382;
 }
+
+
+#footer {
+    background: linear-gradient(to right, #001a33, #002b4d);
+    color: white;
+}
+#footer .footer-contanir{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footer-contanir .social{
+
+}
+.copyright {
+    text-align: center;
+    padding: 30px;
+}
