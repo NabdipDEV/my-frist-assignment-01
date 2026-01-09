@@ -16,7 +16,7 @@
 .section-heading h2 {
     font-size: 48px;
     color: #001931;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .section-heading p {
     font-size: 16px;
@@ -172,4 +172,18 @@ nav .menu a {
     margin-bottom: 12px;
     color: #001931;
     position: relative;
+}
+#early {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#early .early-continar {
+    max-width: 690px;
+    margin: 0 auto;
+}
+#early .early-continar .copy{
+    font-size: 16;
+    margin-top: 20px;
+    color: #627382;
 }
