@@ -82,7 +82,7 @@ nav .menu a {
     color: #000000;
 }
 #banner {
-    background: url(/assets/hero-bg.png);
+    background: url(../assets/hero-bg.png);
     height: 600px;
     display: flex;
     align-items: center;
