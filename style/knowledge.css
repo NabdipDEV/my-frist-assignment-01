@@ -8,6 +8,21 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
+.section-heading{
+    max-width: 870px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading h2 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 10px;
+}
+.section-heading p {
+    font-size: 16px;
+    margin-bottom: 44px;
+    color: #627382;   
+}
 .btn{
     background-color: #30b868;
     border: none;
@@ -66,17 +81,55 @@ nav .menu a {
 }
 
 #banner .banner-contanir h1 {
-  font-size: 72px;
-  font-weight: 700;
-  color: #ffff;
-  text-align: center;
-  margin-bottom: 16px;
-}
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffff;
+    text-align: center;
+    margin-bottom: 16px;
+    }
 #banner .banner-contanir p {
-  font-size: 18px;
-  font-weight: 400;
-  color: #ffffff9d;
-  text-align: center;
-  margin-bottom: 32px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff9d;
+    text-align: center;
+    margin-bottom: 32px;
 
+}
+
+#notes {
+    padding-top: 90px;
+}
+#notes .notes-contanir{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+#notes  .notes-contanir .notes-box{
+    max-width: 1140px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 120px;
+    
+}
+.notes-box .notes-card{
+    padding: 24px;
+    box-shadow: 0 6px 50px 0 #42423e35;
+    border-radius: 8px;
+    text-align: center;
+}
+.notes-card img{
+    padding: 4px;
+    margin-bottom: 16px;
+    background-color: #F95555;
+    border-radius: 50%;
+}
+.notes-card h4{
+    font-size: 20px;
+    margin: 16px 0 12px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.notes-card p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #627382;
 }
