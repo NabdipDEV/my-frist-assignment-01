@@ -159,7 +159,7 @@ nav .menu a {
 }
 #solution .solution-container {
     max-width: 1140px;
-    margin: 120px;
+    margin: 120px auto;
     display: flex;
     align-items: center;
     gap: 60px;
